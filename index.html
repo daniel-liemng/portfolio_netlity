@@ -239,7 +239,7 @@
       </div>
       <div class="col-md-6">
         <div>
-        <form name='contact' method="POST" data-netlify="true" style="width: 80%;" class="mx-5">
+        <form name='contact' method="POST" data-netlify-recaptcha="true" style="width: 80%;" class="mx-5">
           <div class="form-group">
             <label for="name">Name</label>
             <input type="text" name="name" id="name" class="form-control" placeholder="Name"/>
@@ -251,6 +251,9 @@
           <div class="form-group">
             <label for="message">Message</label>
             <textarea name="message" id="message" class="form-control mb-4" placeholder="Message" rows="5"></textarea>
+          </div>
+          <div class="form-group">
+            <div data-netlify-recaptcha="true"></div>
           </div>
           <button type="submit" class="btn btn-outline-light btn-lg">Send Message</button>
         </form>
