@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/98f6c2e0d3.js"></script>
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Hoang Liem Nguyen | Portfolio</title>
+</head>
+<body data-spy='scroll' data-target='#mainNav'>
+  
+  <!-- Home Section -->
+  <div id="home">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a href="#" class="navbar-brand">My<span class="portfolio">Portfolio</span></a>
+    
+      <button class="navbar-toggler" type="button" data-toggle='collapse' data-target='#mainNav'>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Landing Section -->
+    <div class="landing">
+      <div class="home-wrap">
+        <div id="home-inner">
+          <div class="dark-overlay"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="caption text-center">
+      <h2>Hoang Liem Nguyen</h2>
+      <h4>Web Developer</h4>
+      <a href="#projects" class="btn btn-outline-light btn-lg">Check out</a>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div id="about" class="offset">
+    <div class="col-12 narrow text-center">
+      <h1>About Me</h1>
+      <p class="lead">The decision to change my career path was one of the hardest decisions I had to make. However, once I define my own path, I will try my best to follow it, get it done in a professional manner and consider it my long-term career.</p>
+      <p class="lead">I am a Full Stack developer. I specialize in building websites and web applications using JavaScript and JavaScript frameworks like ReactJS, VueJS, NodeJS and RESTful API. Technologies change rapidly, so I always keep myself up-to-date with the latest technologies by keeping learning from online resources.</p>
+      <p class="lead">Now I am actively looking for any opportunities to make the most of what I have learnt and build applications that can be widely used in life.</p>
+      <a href="./pdf/Resume_LiemNguyen.pdf" target="_blank" class="btn btn-secondary btn-md">Resume</a>
+    </div>
+  </div>
+
+  <!-- Skills Section -->
+  <div id="skills" class="offset">
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+        <div class="narrow text-center">
+          <div class="col-12">
+            <h3 class="heading">Skills</h3>
+            <div class="heading-underline"></div>
+          </div>
+          <!-- Row 1 -->
+          <div class="row text-center">
+
+            <div class="col-md-4">
+              <div class="skill">
+                <i class="fab fa-html5 fa-4x"></i>
+                <h3>HTML/HTML5</h3>
+                
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="skill">
+                <i class="fab fa-css3 fa-4x"></i>
+                <h3>CSS/CSS3</h3>
+                
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="skill">
+                <i class="fab fa-js fa-4x"></i>
+                <h3>Javascript</h3>
+                
+              </div>
+            </div>
+
+          </div>
+          <!-- Row 2 -->
+          <div class="row text-center">
+
+            <div class="col-md-4">
+              <div class="skill">
+                <i class="fab fa-vuejs fa-4x"></i>
+                <h3>Vuejs</h3>
+                
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="skill">
+                <i class="fab fa-react fa-4x"></i>
+                <h3>React</h3>
+                
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="skill">
+                <i class="fab fa-node fa-4x"></i>
+                <h3>NodeJS</h3>
+                
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+  <!-- Projects Section -->
+  <div id="projects" class="offset">
+    
+      <div class="row dark text-center">
+
+        <div class="col-12">
+          <h3 class="heading">Projects</h3>
+          <div class="heading-underline"></div>
+        </div>
+
+        <div class="col-md-6">
+          <h3>Student Registration</h3>
+          <div class="project">
+            <img src="./img/StudentReg_MERN.PNG" alt="Project 1" class="img-thumbnail my-3">
+            <p class="lead">This is a Student Registration project built with MERN stack.</p>
+            <button type="button" class="btn btn-modal" data-toggle="modal" data-target="#project1">View Project</button>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <h3>Bookshelf</h3>
+          <div class="project">
+            <img src="./img/BookShelf_Dashboard.PNG" alt="Project 2" class="img-thumbnail my-3">
+            <p class="lead">This is a Bookshelf project built with Vue and Firebase.</p>
+            <button type="button" class="btn btn-modal" data-toggle="modal" data-target="#project2">View Project</button>
+          </div>
+        </div>        
+        
+        
+
+      </div>
+
+      <!-- Modal for project 1 -->
+      <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalLabel">Student Registration Project</h5>
+              <button type="button" class="close" data-dismiss='modal' aria-label='Close'>
+                <span aria-hidden='true'>&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="./img/StudentRegistration_Majors.PNG" alt="Project 1" class="img-thumbnail my-3">
+              <p>This is a Student Registration web application built withh MERN stack.</p>
+              <p>Users can view, create, update and delete the field of 'major'.</p>
+              <p>Users can view, create, update and delete a student with the selective major</p>              
+              <p>This project is built with React, Boostrap, Node, Express, MongoDB Atlas</p>
+            </div>
+            <div class="modal-footer">
+              <a href="https://student-registration-mern.herokuapp.com/" class="btn btn-modal">View Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal for project 2 -->
+      <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalLabel">Bookshelf Project</h5>
+              <button type="button" class="close" data-dismiss='modal' aria-label='Close'>
+                <span aria-hidden='true'>&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <img src="./img/BookShelf_Details.PNG" alt="Project 2" class="img-thumbnail my-3">
+              <p>This is a Vue web application</p>
+              <p>Users login/register to accsess the dashboard</p>
+              <p>Valid user can view, create, update, delete books</p>
+              <p>This projecct is built with Vue, Vuetify, Firebase/Firestore, Firebase Authentication</p>
+            </div>
+            <div class="modal-footer">
+              <a href="https://bookshelf-vue.firebaseapp.com" class="btn btn-modal">View Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      
+    
+  </div>
+
+  <!-- Ready Section -->
+  <div id="contact">
+    <div class="parallax">
+    </div>
+    <div class="contact-details row justify-content-center">
+      <div class="col-12  text-center">
+        <h3 class="heading">Contact Me</h3>
+        <div class="heading-underline"></div>
+      </div>
+      <div class="col-md-6">
+        <div>
+        <form action="POST" data-netlify="true" style="width: 80%;" class="mx-5">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Name"/>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" class="form-control" placeholder="Email"/>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" class="form-control mb-4" placeholder="Message" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn-outline-light btn-lg">Send Message</button>
+        </form>
+      </div>
+      </div>
+      <div class="col-md-6 text-center mt-5 contact-info">
+        <h3>Hoang Liem Nguyen</h3>
+        <h5>Full Stack Developer</h5>
+        <div>
+                
+        (647) 809-4282
+        </div>
+        <div>
+             
+        daniel.liemng@gmail.com
+        </div>
+        <a href="https://www.linkedin.com/in/daniel-liemng" target="_blank">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="https://github.com/daniel-liemng" target="_blank">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+      </div>
+  </div>
+  
+  <!-- Footer Section -->
+  <div class="footer">    
+    <div class="row justify-content-center">
+      <p>&copy; 2020 | Hoang Liem Nguyen</p>
+    </div>
+  </div>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>
